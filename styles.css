@@ -1,0 +1,23 @@
+/* AI Disclosure: I used ChatGPT to help me get gradients to work with maximum compatibility for older browsers. */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+    background-color: rgb(58,145,180); /* Older browser fallback */
+    background: -webkit-linear-gradient(105deg, rgba(58,145,180,1) 0%, rgba(69,252,73,1) 100%); /* Safari 5.1 - 6 */
+    background: -moz-linear-gradient(105deg, rgba(58,145,180,1) 0%, rgba(69,252,73,1) 100%); /* Firefox 3.6 - 15 */
+    background: -o-linear-gradient(105deg, rgba(58,145,180,1) 0%, rgba(69,252,73,1) 100%); /* Opera 11.1 - 12.0 */
+    background: linear-gradient(105deg, rgba(58,145,180,1) 0%, rgba(69,252,73,1) 100%); /* W3C, IE 10+, Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
