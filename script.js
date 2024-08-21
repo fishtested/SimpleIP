@@ -1,3 +1,5 @@
+// AI Disclosure: I used ChatGPT to help me troubleshoot errors with the copy function.
+
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch the IP address from the ipify API
     fetch("https://api.ipify.org?format=json")
@@ -10,3 +12,17 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error("Error:", error);
         });
 });
+
+function copy() {
+    // Get the IP address from the content of the <div> element
+    var ip = document.getElementById("IPaddress").textContent;
+    
+    // Copy the IP address to the clipboard
+    navigator.clipboard.writeText(ip);
+    console.log("Copied IP address", ip)
+    
+    // Alert
+    alert("Copied!");
+  }
+  
+  
