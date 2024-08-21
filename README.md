@@ -8,6 +8,7 @@ The Poppins font is from [fonts.upset.dev](https://upset.dev/fonts), not Google 
 
 # How to use it
 Visit [https://simpleip.netlify.app](https://simpleip.netlify.app)
+You can click your IP address to copy it.
 
 # Screenshots
 ![image](https://github.com/user-attachments/assets/5af2bac9-7933-425d-84df-1b233a061a1e)
